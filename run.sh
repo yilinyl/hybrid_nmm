@@ -1,0 +1,1 @@
+python -u pipeline2.py --root-dir /home/ubuntu/coco-lab --epoch 20 --sim_length 6e4 --t_setup 0 --period 500 --eta 20.0 --lr 0.01 --print_freq 5 --fig_dir ./log/run2_all_tr_test --fc_save_path ./log/run2_all_tr_test/fc_pred.pkl --checkpt_path ./log/run2_all_tr_test/checkpoint.pt
